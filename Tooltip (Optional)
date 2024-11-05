@@ -1,0 +1,7 @@
+<div style={{ position: 'relative', padding: '10px' }}>
+  {transactionTypes.map(({ note, color, label }, index) => (
+    <div key={index} title={`This represents ${label}`}>
+      <PianoKey note={note} color={color} label={label} />
+    </div>
+  ))}
+</div>

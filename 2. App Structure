@@ -1,0 +1,7 @@
+src
+├── components
+│   ├── PianoKey.js          # Component for individual piano key
+│   ├── TransactionVisualizer.js  # Main visualization component
+│   └── Controls.js          # Audio and toggle controls
+├── App.js                   # Main app
+└── index.js
